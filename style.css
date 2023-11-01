@@ -709,7 +709,13 @@ nav h1 {
 	text-align: center; 
 	color:white; 
 	position: relative; 
-	top:115px;
+	top:125px;
+}
+
+@media(max-height: 845px){
+	#review{
+		top: 100px;
+	}
 }
 
 @media(max-height: 775px){
@@ -720,7 +726,7 @@ nav h1 {
 
 @media(max-height: 700px){
 	#review{
-		top: 50px;
+		top: 45px;
 	}
 }
 
